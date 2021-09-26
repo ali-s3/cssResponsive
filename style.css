@@ -32,9 +32,15 @@
             width: 30%;
             float: right;
         }
+        body {
+            background-color: green;
+        }
     }
     
     @media screen and (max-width: 360px) {
+        body {
+            background-color: yellow;
+        }
         #myimage {
             width: 50%;
             float: right;
