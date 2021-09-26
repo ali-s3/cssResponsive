@@ -1,4 +1,4 @@
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 360px) {
         .IntroWrapper {
             display: table;
             table-layout: fixed;
@@ -37,7 +37,7 @@
         }
     }
     
-    @media screen and (min-width: 360px) {
+    @media screen and (max-width: 360px) {
         body {
             background-color: yellow;
         }
