@@ -28,9 +28,8 @@
     .Ingredients h3 {
         margin: 0;
     }
-}
-
-#myimage {
-    width: 30%;
-    float: right;
+    #myimage {
+        width: 30%;
+        float: right;
+    }
 }
