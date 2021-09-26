@@ -1,49 +1,48 @@
-    @media screen and (min-width: 361px) {
-        .IntroWrapper {
-            display: table;
-            table-layout: fixed;
-            width: 100%;
-        }
-        .MoneyShot,
-        .IntroText {
-            display: table-cell;
-            width: 50%;
-            vertical-align: middle;
-            text-align: center;
-        }
-        .IntroText {
-            padding: 0.5rem;
-            font-size: 2.5rem;
-            text-align: left;
-            color: hotpink;
-        }
-        .Ingredients {
-            font-size: 0.9rem;
-            float: right;
-            padding: 1rem;
-            margin: 0 0 0.5rem 1rem;
-            border-radius: 3px;
-            background-color: #ffffdf;
-            border: 2px solid #e8cfa9;
-        }
-        .Ingredients h3 {
+        html,
+        body {
             margin: 0;
+            padding: 0;
         }
-        #myimage {
-            width: 30%;
-            float: right;
+        
+        .Wrap {
+            max-width: 1400px;
+            margin: 0 auto;
         }
-        body {
-            background-color: green;
+        
+        .Header {
+            width: 100%;
+            height: 130px;
+            background-color: #038c5a;
         }
-    }
-    
-    @media screen and (max-width: 360px) {
-        body {
-            background-color: yellow;
+        
+        .WrapMiddle {
+            width: 100%;
+            font-size: 0;
         }
-        #myimage {
-            width: 50%;
-            float: right;
+        
+        .Left {
+            height: 625px;
+            width: 20.83%;
+            background-color: #03a66a;
+            display: inline-block;
         }
-    }
+        
+        .Middle {
+            height: 625px;
+            width: 68.75%;
+            background-color: #bbbf90;
+            display: inline-block;
+        }
+        
+        .Right {
+            height: 625px;
+            width: 10.41%;
+            background-color: #03a66a;
+            display: inline-block;
+        }
+        
+        .Footer {
+            height: 200px;
+            width: 100%;
+            background-color: #025059;
+        }
