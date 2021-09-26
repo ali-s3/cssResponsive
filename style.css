@@ -1,35 +1,42 @@
-@media screen and (min-width: 800px) {
-    .IntroWrapper {
-        display: table;
-        table-layout: fixed;
-        width: 100%;
+    @media screen and (min-width: 800px) {
+        .IntroWrapper {
+            display: table;
+            table-layout: fixed;
+            width: 100%;
+        }
+        .MoneyShot,
+        .IntroText {
+            display: table-cell;
+            width: 50%;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .IntroText {
+            padding: 0.5rem;
+            font-size: 2.5rem;
+            text-align: left;
+        }
+        .Ingredients {
+            font-size: 0.9rem;
+            float: right;
+            padding: 1rem;
+            margin: 0 0 0.5rem 1rem;
+            border-radius: 3px;
+            background-color: #ffffdf;
+            border: 2px solid #e8cfa9;
+        }
+        .Ingredients h3 {
+            margin: 0;
+        }
+        #myimage {
+            width: 30%;
+            float: right;
+        }
     }
-    .MoneyShot,
-    .IntroText {
-        display: table-cell;
-        width: 50%;
-        vertical-align: middle;
-        text-align: center;
+    
+    @media screen and (min-width: 360px) {
+        #myimage {
+            width: 50%;
+            float: right;
+        }
     }
-    .IntroText {
-        padding: 0.5rem;
-        font-size: 2.5rem;
-        text-align: left;
-    }
-    .Ingredients {
-        font-size: 0.9rem;
-        float: right;
-        padding: 1rem;
-        margin: 0 0 0.5rem 1rem;
-        border-radius: 3px;
-        background-color: #ffffdf;
-        border: 2px solid #e8cfa9;
-    }
-    .Ingredients h3 {
-        margin: 0;
-    }
-    #myimage {
-        width: 30%;
-        float: right;
-    }
-}
