@@ -1,12 +1,1 @@
-@media(max-width: 360px) {
-    .left-side-bar {
-        height: 200px;
-    }
-    .main-content{
-        height: 800px;
-    }
-    .right-side-bar{
-        height: 100px;
-    }
-}
 
