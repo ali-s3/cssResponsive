@@ -21,19 +21,26 @@
         li {
             display: inline-block;
         }
+        .header-row, col{
+            background-color: blue; height: 8rem;
+        }
     </style>
 </head>
 
 <body>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 d-flex justify-content-between text-center" style="background-color: blue; height: 8rem;">
-                <ol style="list-style: none;">
-                    <li><button class="btn btn-primary">hello</button></li>
-                    <li><button class="btn btn-primary">hello</button></li>
-                    <li><button class="btn btn-primary">hello</button></li>
-                    <li><button class="btn btn-primary">hello</button></li>
+        <div class="row header-row">
+            <div class="col">
+                <ol style="list-style: none; width: 100%;">
+                    <li><button class="btn btn-primary">Home</button></li>
+                    <li><button class="btn btn-primary">About US</button></li>
+                    <li><button class="btn btn-primary">Services</button></li>
+                </ol>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <ol>
+                    <li><button class="btn btn-primary">hello User!</button></li>
                 </ol>
             </div>
         </div>
